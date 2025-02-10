@@ -4,6 +4,7 @@
 *{
     background-color: #292A33;
     --primary-color: #FFC733;
+    text-decoration: none;
 }
 
 
@@ -13,6 +14,12 @@ body{
     font-size: 20px;
 }
 
+a{
+    color: #fff;
+}
+a:hover{
+    color: var(--primary-color);
+}
 .headpart{
     margin-top: 0;
     margin-bottom: 5px;
@@ -69,16 +76,18 @@ body{
     .bodycont1{
         flex-direction: column;
     }
+
+    .abouttxt{
+        font-size:5px;
+    }
   }
   
   /* Laptops and desktops (1024px and below) */
   @media only screen and (max-width: 1024px) {
-    .main-content {
-      width: 65%;
+
+    .abouttxt{
+        font-size:5px;
     }
-  
-    .sidebar {
-      width: 35%;
-    }
+
   }
   
