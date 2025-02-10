@@ -19,6 +19,7 @@ a{
 }
 a:hover{
     color: var(--primary-color);
+    border-bottom: 2px var(--primary-color) solid;
 }
 .headpart{
     margin-top: 0;
