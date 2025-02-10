@@ -79,7 +79,7 @@ a:hover{
     }
 
     .abouttxt{
-        font-size:5px;
+        font-size:25px;
     }
   }
   
@@ -87,7 +87,7 @@ a:hover{
   @media only screen and (max-width: 1024px) {
 
     .abouttxt{
-        font-size:5px;
+        font-size:25px;
     }
 
   }
