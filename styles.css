@@ -38,6 +38,7 @@ a:hover{
 
 .h-one{
     color: var(--primary-color);
+    margin-top: 0;
 }
 .hright{
     margin-right: 0px;
